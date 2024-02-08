@@ -6,7 +6,7 @@ import android.view.ViewGroup
 import android.widget.BaseAdapter
 import android.widget.TextView
 
-class TextSizeAdapter(_context: Context, _text: Array<String>) : BaseAdapter() {
+class TextSizeAdapter(_context: Context, _text: Array<Int>) : BaseAdapter() {
     private val context = _context
     private val text = _text
     override fun getCount(): Int {
